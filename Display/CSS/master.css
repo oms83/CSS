@@ -1,0 +1,24 @@
+.block {
+    background-color: red;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    height: 40px;
+}
+
+.inline {
+    background-color: aqua;
+    width: 30px; /*not respcet*/
+    height: 30px; /*not respcet*/
+    padding: 40px; 
+    margin: 40px; /* left right only*/
+}
+
+.block-inline {
+    display: inline-block;
+    background-color: blueviolet;
+    width: 200px; /*respcet*/
+    height: 50px; /*respcet*/
+    margin: 20px; /*respcet*/
+    padding: 20px; /*respcet*/
+}
