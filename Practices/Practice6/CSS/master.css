@@ -1,0 +1,16 @@
+.element-1 {
+    background-color: gainsboro;
+    border-left: 10px solid palevioletred;
+    outline: 10px solid gainsboro;
+    padding: 20px;
+    margin: 30px;
+    width: 400px;
+}
+.element-2 {
+    background-color: gainsboro;
+    border-left: 10px solid yellowgreen;
+    outline: 10px solid gainsboro;
+    margin: 30px;
+    padding: 20px;
+    width: 400px;
+}
