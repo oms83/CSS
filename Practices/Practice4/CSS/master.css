@@ -1,0 +1,43 @@
+.assign-2-shape1 {
+    background-image: url("../../Practice2/Images/example.png");
+    width: 400px;
+    height: 400px;
+    font-size: 40px;
+    background-color: plum;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+
+.assign-2-shape2 {
+    background-image: url("../../Practice2/Images/example.png");
+    width: 400px;
+    height: 400px;
+    color: wihte;
+    font-size: 40px;
+    background-color: plum;
+    background-repeat: repeat-y;
+    background-position: top right;
+    background-size: 80%;
+}
+
+.assign-2-shape3 {
+    background-image: url("../../Practice2/Images/example.png");
+    width: 400px;
+    height: 400px;
+    font-size: 40px;
+    background-repeat: no-repeat;
+    background-color: plum;
+    background-size: 80%;
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
+.assign-2-shape4 {
+    background-image: url("../../Practice2/Images/example.png");
+    width: 400px;
+    height: 400px;
+    font-size: 40px;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-color: plum;
+}
