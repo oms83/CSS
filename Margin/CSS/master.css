@@ -1,4 +1,4 @@
-div {
+.divStyle {
     background-color: rebeccapurple;
     color: antiquewhite;
 
@@ -38,4 +38,15 @@ div {
     margin-top: -50px;
 
 
+}
+
+.special {
+    color: white;
+    background-color: blueviolet;
+    padding: 30px;
+    width: 70%;
+    /* margin-left: 15%; */
+    /* margin-right: 15%; */
+    margin-left: auto;
+    margin-right: auto;
 }
