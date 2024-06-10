@@ -1,0 +1,14 @@
+div {
+    color: white;
+    background-color: blueviolet;
+    padding: 20px;
+    width: 70%;
+    margin: 20px auto 0 auto;
+    border: 10px solid greenyellow;
+    border-radius: 30px;
+
+    /* outline-color: teal; */
+    /* outline-width: 10px; */
+    /* outline-style: dashed; */
+    outline: 10px dashed teal;
+}
