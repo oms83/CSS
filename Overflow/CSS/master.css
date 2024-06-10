@@ -1,0 +1,16 @@
+div {
+    width: 150px;
+    height: 150px;
+    background-color: gainsboro;
+    border-radius: 10px;
+
+    /* default */
+    /* overflow: visible; */
+
+    /* overflow: hidden; */
+    /* overflow: auto;  */
+
+    /* overflow-x: hidden; */
+    overflow-x: auto;
+    overflow-y: auto;
+}
