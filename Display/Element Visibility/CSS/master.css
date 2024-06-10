@@ -1,0 +1,15 @@
+.first {
+    background-color: red;
+    padding: 20px;
+
+    /*  */
+    display: none;
+    
+}
+.second {
+    background-color: palegreen;
+    padding: 20px;
+
+    visibility: hidden;
+    visibility: visible;
+}
