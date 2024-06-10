@@ -1,0 +1,15 @@
+p {
+    color: red;
+    font-weight: bold;
+}
+
+.special {
+    
+    color: green;
+    font-weight: bold;
+}
+
+p {
+    color: teal;
+    font-weight: bold;
+}
