@@ -1,0 +1,21 @@
+div {
+    background-color: blue;
+    
+    /* Top Righ Bottom Left */
+    /* padding: 10px; */
+    
+    /* Top Righ Bottom Left */
+    /* 10px 20px 10px 20px */
+    /* padding: 10px 20px; */
+
+    /* Top Righ Bottom Left */
+    /* 10px 20px 30px 20px */
+    /* padding: 10px 20px 30px; */
+    
+    /* Bottom 10px */
+    /* padding: 0 0 10px; */
+
+    padding-bottom: 10px;
+    padding-top: 20px;
+
+}

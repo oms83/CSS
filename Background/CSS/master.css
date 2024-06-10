@@ -2,10 +2,10 @@ div {
     background-color: #ff0000;
     background-color: teal;
     background-color: rgb(10, 200, 15 / 50%);
-    background-image: url("/Images/pexels-bess.jpg");
+    background-image: url("/Images/joshua-earle.jpg");
     background-repeat: no-repeat;
-    /* background-repeat: repeat-x; */
-    /* background-repeat: repeat-y; */
-    /* background-repeat: repeat; default */
-
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-size: 50px 70px;
 }
