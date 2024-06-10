@@ -5,13 +5,13 @@ p {
 }
 
 div p {
-    background-color: plum  ;
+    background-color: plum;
     color: black;
     padding: 20px;
 }
 
 div .special {
-    background-color: plum  ;
+    background-color: plum;
     color: black;
     padding: 20px;
 }
