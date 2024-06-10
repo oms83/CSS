@@ -1,0 +1,41 @@
+div {
+    background-color: rebeccapurple;
+    color: antiquewhite;
+
+    /* Top Righ Bottom Left */
+    /* padding: 10px; */
+
+    /* Top Righ Bottom Left */
+    /* 10px 20px 10px 20px */
+    /* padding: 10px 20px; */
+
+    /* Top Righ Bottom Left */
+    /* 10px 20px 30px 20px */
+    /* padding: 10px 20px 30px; */
+
+    /* Bottom 10px */
+    /* padding: 0 0 10px; */
+
+    padding-bottom: 10px;
+    padding-top: 20px;
+
+    /* Top Righ Bottom Left */
+    /* margin: 10px; */
+
+    /* Top Righ Bottom Left */
+    /* 10px 20px 10px 20px */
+    /* margin: 10px 20px; */
+
+    /* Top Righ Bottom Left */
+    /* 10px 20px 30px 20px */
+    /* margin: 10px 20px 30px; */
+
+    /* Bottom 10px */
+    /* margin: 0 0 10px; */
+
+    margin-bottom: 10px;
+    margin: 0 20px 0 20px;
+    margin-top: -50px;
+
+
+}
