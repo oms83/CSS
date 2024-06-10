@@ -1,0 +1,62 @@
+.One {
+    background-color: gainsboro;
+    color: red;
+    padding: 20px 10px;
+    margin: 20px;
+    border-bottom: 10px solid red;
+}
+
+.Two {
+    background-color: gainsboro;
+    color: green;
+    padding: 20px 10px;
+    margin: 20px;
+    border-bottom: 10px solid green;
+}
+
+.Three {
+    background-color: gainsboro;
+    color: blue;
+    padding: 20px 10px;
+    margin: 20px;
+    border-bottom: 10px solid blue;
+}
+
+.Four {
+    background-color: gainsboro;
+    color: orangered;
+    padding: 20px 10px;
+    margin: 20px;
+    border-bottom: 10px solid orangered;
+}
+
+/* ------------------------------------------- */
+
+.One1 {
+    color: red;
+    border-bottom: 10px solid red;
+}
+
+.Two2 {
+    color: green;
+    border-bottom: 10px solid green;
+}
+
+.Three3 {
+    color: blue;
+    border-bottom: 10px solid blue;
+}
+
+.Four4 {
+    color: orangered;
+    border-bottom: 10px solid orangered;
+}
+
+.One1,
+.Two2,
+.Three3,
+.Four4 {
+    background-color: gainsboro;
+    padding: 20px 10px;
+    margin: 20px;
+}
