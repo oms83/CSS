@@ -1,0 +1,45 @@
+.divStyle1 {
+    color: white;
+    background-color: blueviolet;
+
+    width: 70%;
+    margin: 0 auto 0 auto;
+
+    padding: 20px;
+
+    border-radius: 15px;
+    border-width: 10px;
+    border-style: solid;
+    /*solid dashed dotted*/
+    /* top     right     bottom      left */
+    border-color: teal yellow greenyellow gold;
+}
+
+.divStyle2 {
+    color: white;
+    background-color: blueviolet;
+
+    width: 70%;
+    margin: 0 auto 0 auto;
+
+    padding: 20px;
+
+    border-radius: 15px;
+    border-width: 10px;
+    border-style: dashed solid dotted;
+    border-color: teal yellow greenyellow gold;
+}
+
+.divStyle3 {
+    color: white;
+    background-color: blueviolet;
+
+    width: 70%;
+    margin: 0 auto 0 auto;
+
+    padding: 20px;
+
+    border-radius: 15px;
+    /* width -> style -> color */
+    border: 10px solid teal;
+}
