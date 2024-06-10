@@ -1,0 +1,12 @@
+.special {
+    background-color: red;
+    /* width: 200px; */
+    /* height: 30px; */
+    /* min-width: auto; /*all screen*/
+
+    /* min-width: 200px; */
+    /* max-width: 300px; */
+    /* max-width: 300px; */
+    /* max-height: 100px; */
+    width: fit-content; /*suitable with text*/
+}
