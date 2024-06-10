@@ -1,0 +1,21 @@
+p {
+    background-color: greenyellow;
+    color: black;
+    padding: 20px;
+}
+
+div p {
+    background-color: plum  ;
+    color: black;
+    padding: 20px;
+}
+
+div .special {
+    background-color: plum  ;
+    color: black;
+    padding: 20px;
+}
+
+.special2 {
+    background-color: red;
+}
