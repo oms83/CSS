@@ -1,0 +1,28 @@
+.cls-1 {
+    text-align: center;
+}
+
+.cls-2 {
+    text-align: end;
+}
+
+.cls-3 {
+    text-align: start;
+}
+
+.cls-4 {
+    text-align: right;
+
+}
+
+.cls-5 {
+    text-align: left;
+}
+
+.cls-6 {
+    direction: ltr;
+}
+
+.cls-7 {
+    direction: rtl;
+}
