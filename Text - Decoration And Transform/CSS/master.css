@@ -1,0 +1,36 @@
+.cls-1 {
+
+    /* <'text-decoration-line'> || <'text-decoration-style'> || <'text-decoration-color'> || <'text-decoration-thickness'> */
+    text-decoration: underline solid red 3px;
+    font-size: 18px;
+    margin: 20px 10px;
+    text-transform: uppercase;
+}
+
+.cls-2 {
+    /* text-decoration: overline; */
+    text-decoration: overline solid purple 3px;
+    font-size: 18px;
+    margin: 20px 10px;
+    text-transform: lowercase;
+}
+
+.cls-3 {
+    /* text-decoration: line-through; */
+    text-decoration: line-through solid red 2px;
+    font-size: 18px;
+    margin: 20px 10px;
+    text-transform: capitalize;
+}
+
+a {
+    color: white;
+    background-color: darkblue;
+    border-style: solid;
+    border-width: 15px;
+    border-color: green red yellow white;
+    width: fit-content;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
