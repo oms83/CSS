@@ -1,0 +1,24 @@
+.cls-super,
+.cls-1,
+.cls-2,
+.cls-3 {
+    background-color: brown;
+    max-width: 400px;
+
+}
+
+.cls-1 {
+    width: fit-content;
+    color: white;
+}
+
+.cls-2 {
+    color: orange;
+    height: 100px;
+}
+
+.cls-3 {
+    color: orange;
+    height: 100px;
+    overflow-y: auto;
+}
