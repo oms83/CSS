@@ -1,0 +1,27 @@
+.cls-1 {
+    width: 300px;
+    background-color: brown;
+    color: orange;
+    margin: 10px 0;
+    white-space: nowrap;
+    font-size: 20px;
+} 
+.cls-2 {
+    width: 300px;
+    background-color: brown;
+    color: orange;
+    margin: 10px 0;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+} 
+.cls-3 {
+    width: 300px;
+    overflow: hidden;
+    background-color: brown;
+    color: orange;
+    margin: 10px 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 20px;
+} 
