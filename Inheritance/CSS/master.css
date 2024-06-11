@@ -1,0 +1,31 @@
+div {
+    width: 500px;
+    margin: auto;
+    text-align: center; 
+    background-color: brown;
+    color: white;
+    padding: 20px;
+    border-style: solid;
+    border-color: orangered;
+    border-width: 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    border-style: inherit;
+    border-width: 3px;
+    border-color: inherit;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+}
+
+div p {
+    border-style: inherit;
+    border-color: orange;
+    border-width: 2px;
+    width: fit-content;
+    padding: inherit;
+}
