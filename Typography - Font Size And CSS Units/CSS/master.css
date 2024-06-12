@@ -1,0 +1,27 @@
+.cls-1 {
+    font-size: 20px;
+}
+.cls-2 {
+    font-size: 20px;
+}
+.cls-3 {
+    font-size: 16px;
+}
+.cls-11 {
+    font-size: 100%;
+    }
+    .cls-21 {
+    font-size: 75%;
+}
+.cls-31 {
+    font-size: 50%;  
+}
+
+/* 
+    px
+    em => base item (Div->span)
+    rm => root item (html 16px) 
+    vw => view port width
+    vw => 1% of page width
+    % => % of base element
+*/
