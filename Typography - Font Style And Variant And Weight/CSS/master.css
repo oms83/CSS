@@ -1,0 +1,26 @@
+.cls-1 {
+    font-variant: small-caps;
+    margin: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    
+    background-color: red;
+    width: fit-content;
+    color: white;
+    border: 10px solid orange;
+    padding: 20px;
+}
+.cls-2 {
+    text-transform: uppercase;
+    margin: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
+    
+    background-color: red;
+    width: fit-content;
+    color: white;
+    border: 10px solid orange;
+    padding: 20px;
+}
