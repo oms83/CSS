@@ -1,0 +1,26 @@
+.cls-1 {
+    padding: 20px;
+    color: white;
+    display: inline-block;
+    background-color: red;
+    margin: 0 10px;
+    cursor: grab;
+}
+
+.cls-2 {
+    padding: 20px;
+    color: white;
+    display: inline-block;
+    background-color: red;
+    margin: 0 10px;
+    cursor: move;
+}
+
+.cls-3 {
+    padding: 20px;
+    color: white;
+    display: inline-block;
+    background-color: red;
+    margin: 0 10px;
+    cursor: pointer;
+}
