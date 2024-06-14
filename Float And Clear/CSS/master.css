@@ -1,0 +1,32 @@
+.parent {
+    background-color: red;
+    padding: 10px;
+}
+
+
+.parent div {
+    background-color: white;
+    padding: 10px 0;
+    text-align: center;
+    width: 24%;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.parent1 {
+    background-color: blue;
+    padding: 10px;
+}
+.parent1 div {
+    background-color: white;
+    padding: 10px 0;
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+}
+.pp {
+    margin-bottom: 70px;
+}
