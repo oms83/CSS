@@ -1,0 +1,37 @@
+.one {
+    background-color: darkgray;
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 30px;
+    text-wrap: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.two {
+    background-color: darkgray;
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.three {
+    background-color: darkgray;
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 30px;
+    text-wrap: nowrap;
+    overflow: scroll; 
+    
+}
+p {
+    display: block;
+    background-color: darkcyan;
+    color: whitesmoke;
+    padding: 20px;
+    width: 100px;
+    border-bottom: 7px solid cyan;
+}
