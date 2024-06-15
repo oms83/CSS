@@ -1,0 +1,65 @@
+.parent {
+    background-color: grey;
+    width: 800px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.cls1 {
+    width: calc(770px);
+    background-color: gainsboro;
+    padding: 10px 0;
+    text-align: inherit;
+    float: left;
+    margin: 10px 0px 10px 15px;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+}
+
+.cls3 {
+    width: calc(740px/3);
+    float: left;
+    margin-left: 15px;
+    padding: 10px 0;
+    background-color: gainsboro;
+    margin-bottom: 10px;
+    text-align: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+}
+
+.cls2 {
+
+    width: calc(755px/2);
+    margin-left: 15px;
+    background-color: gainsboro;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    float: left;
+    text-align: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+}
+
+.cls4 {
+
+    width: calc(725px/4);
+    margin-left: 15px;
+    background-color: gainsboro;
+    float: left;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    text-align: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+}
+
+.clear {
+    clear: both;
+}
