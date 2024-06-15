@@ -1,0 +1,114 @@
+.parent {
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.one {
+    background-color: #eee;
+    padding: 10px;
+    width: 600px;
+    float: left;
+    position: relative;
+}
+
+.user {
+    background-color: #eee;
+    width: 50px;
+    margin-right: 20px;
+    padding: 20px;
+    height: 35px;
+    float: left;
+    font-size: 50px;
+    text-align: center;
+}
+
+.one .pipeline {
+    position: absolute;
+    background-color: darkcyan;
+    width: 10px;
+    height: 100%;
+    right: -15px;
+    top: 0px;
+}
+
+.base {
+    overflow: hidden;
+}
+
+.us {
+    background-color: #eee;
+    width: 50px;
+    padding: 26px;
+    float: left;
+    margin-right: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.two {
+    background-color: #eee;
+    width: 600px;
+    padding: 10px;
+    float: left;
+    margin-bottom: 20px;
+    font-size: 20px;
+    position: relative;
+}
+
+.two .pipe {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 10px;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+
+
+
+.baba {
+    overflow: hidden;
+}
+
+.use {
+    background-color: #eee;
+    width: 50px;
+    padding: 26px;
+    float: left;
+    margin-right: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.three {
+    background-color: #eee;
+    width: 600px;
+    padding: 10px;
+    float: left;
+    margin-bottom: 20px;
+    font-size: 20px;
+    position: relative;
+}
+
+.three::after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 10px;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+.three::before {
+    /* content: "Content Form Css "; */
+    content: "";
+    border-width: 18px;
+    border-style: solid;
+    border-color: transparent transparent transparent blueviolet;
+    position: absolute;
+    left: -18px;
+    top: 35px;
+
+}
