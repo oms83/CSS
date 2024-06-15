@@ -1,0 +1,27 @@
+.cls-li1, .cls-li2, .cls-li3 {
+    background-color: #eee;
+    margin: 20px;
+    list-style-position: inside;
+    list-style: none;
+    width: 400px;
+    padding: 10px;
+}
+
+.cls-li1 ol {
+    list-style-type: decimal;
+}
+
+
+.cls-li2 ol {
+    list-style-type: upper-roman;
+}
+
+
+.cls-li1 ol {
+    list-style-type: decimal;
+}
+
+.cls-li1 ol li, .cls-li2 ol li, .cls-li3 ul li {
+    background-color: wheat;
+    margin: 10px 0;
+}
