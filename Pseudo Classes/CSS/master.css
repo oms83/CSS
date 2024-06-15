@@ -1,0 +1,44 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: #eee;
+}
+h1 {
+    background-color: red;
+    padding: 15px 5px;
+}
+a {
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:visited {
+    color: blue;
+}
+.ch:checked + label {
+    color: red;
+}
+
+:empty {
+    /* background-color: darkblue; */
+    border-width: 20px;
+}
+
+.in {
+    border: 5px solid red;
+}
+
+.in:focus {
+    background-color: yellow;
+    color: blue;
+    font-weight: bold;
+    outline: none;
+}
