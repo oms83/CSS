@@ -1,0 +1,43 @@
+.parent {
+    overflow: hidden;
+}
+
+.one {
+    background-color: #eee;
+    padding: 20px;
+    width: 600px;
+    float: left;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    position: relative;
+    border-left: 10px solid darkcyan;
+
+}
+
+.user {
+    float: left;
+    background-color: #eee;
+    padding: 42px;
+    width: 50px;
+    margin-right: 30px;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-left: 10px solid darkmagenta;
+
+}
+
+.one::before {
+    content: "";
+    border-width: 20px;
+    border-color: transparent darkcyan transparent transparent;
+    border-style: solid;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    left: -50px;
+}
+
+
