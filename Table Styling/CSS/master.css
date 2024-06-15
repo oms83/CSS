@@ -1,0 +1,24 @@
+table {
+    border: 1px solid red;
+    width: 100%;
+    border-spacing: 0px;
+}
+
+table td {
+    padding: 30px;
+    background-color: #eee;
+    border: 1px solid darkcyan
+}
+
+table th {
+    font-weight: bold;
+    text-align: center;
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 30px;
+    border: 1px solid darkgoldenrod;
+}
+
+th:hover {
+    background-color: darkcyan;
+}
