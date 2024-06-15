@@ -1,0 +1,44 @@
+.one,
+.two {
+    width: 500px;
+    line-height: 30px;
+    margin: 40px;
+}
+
+.one span {
+    font-weight: bold;
+    font-size: 50px;
+    background-color: red;
+    color: white;
+}
+
+.two::first-letter {
+    display: inline-block;
+    font-size: 50px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.three::first-line {
+    color: green;
+    word-spacing: 20px;
+    font-size: 20px;
+}
+
+.three::selection {
+    color: red;
+    background-color: black;
+}
+
+::selection {
+    background-color: blueviolet;
+    color: white;
+}
+
+
+.four::selection {
+    background-color: black;
+    color: yellow;
+}
+
