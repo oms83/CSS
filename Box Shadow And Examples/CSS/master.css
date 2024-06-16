@@ -1,0 +1,28 @@
+.cls-1 {
+    background-color: blueviolet;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 0px solid transparent;
+    box-shadow: 8px 8px 10px 0px #262626;
+    padding: 30px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.cls-2 {
+    background-color: blueviolet;
+    width: 500px;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    border: 0px solid transparent;
+    box-shadow: 7px 7px 10px 0 #262626 inset, -7px -7px 10px 0 #262626 inset;
+    font-weight: bold;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+}
