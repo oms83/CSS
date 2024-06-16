@@ -1,0 +1,26 @@
+.cls-1 {
+    width: 100px;
+    height: 150px;
+    background-color:blueviolet;
+    margin: 20px auto;
+    border-radius: 50px;
+    outline: 2px solid red;
+}
+
+.cls-3 {
+    width: 200px;
+    height: 200px;
+    background-color:blueviolet;
+    margin: 20px auto;
+    border-start-end-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.cls-2 {
+    width: 200px;
+    height: 200px;
+    background-color:blueviolet;
+    margin: 20px auto;
+    border-radius: 0 20px;
+    outline: 2px solid red;
+}
