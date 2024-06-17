@@ -1,0 +1,52 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:root {
+    --MainColor: blueviolet;
+    --MainPadding: 20px;
+}
+.one,
+.two,
+.three,
+.four,
+.five {
+    margin-bottom: 20px;
+}
+
+.one {
+    width: 600px;
+    padding: var(--MainPadding, 20px);
+    background-color: var(--MainColor, darkcyan);
+    color: white;
+}
+
+.two {
+    width: 600px;
+    padding: var(--MainPadding, 20px);
+    border: 5px solid var(--MainColor, darkcyan);
+
+}
+
+.three {
+    width: 600px;
+    padding: var(--MainPadding, 20px);
+    color: var(--MainColor, darkcyan);
+}
+
+.four {
+    width: 600px;
+    padding: var(--MainPadding, 20px);
+    color: white;
+    border: 5px solid var(--MainColor, darkcyan);
+    background-color: var(--MainColor, darkcyan);
+    border-radius: 10px 0px;
+}
+.five {
+    --MainColor: red;
+    padding: var(--MainPadding);
+    color: #262626;
+    background-color: var(--MainColor);
+    width: 600px;
+}
