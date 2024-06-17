@@ -1,0 +1,21 @@
+.one {
+    background-color: blueviolet !important;
+    color: white;
+    font-size: 20px;
+    width: 400px;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 5px 5px 7px #262626 inset;
+    text-shadow: 5px 5px 7px #262626;;
+    padding: 30px;
+    border-radius: 20px 0;
+    border: 5px solid darkcyan;
+    transition: all 3s ease-in;
+}
+.one:hover{
+    box-shadow: 5px 5px 7px #262626;
+    background-color: darkcyan !important;
+    border-color: blueviolet;
+}
