@@ -1,0 +1,56 @@
+.parent {
+    background-color: #262626;
+    width: 700px;
+    height: 400px;
+    margin: auto;
+    padding: 10px;
+}
+
+.parent .two,
+.parent .one {
+    float: left;
+    width: 50%;
+    height: 200px;
+}
+
+.down {
+    background-color: darkcyan;
+    height: 190px;
+    margin-top: 20px;
+}
+
+.up {
+    background-color: blueviolet;
+    height: 190px;
+    margin-bottom: 20px;
+}
+
+.parent1 {
+    background-color: #262626;
+    width: 700px;
+    height: 400px;
+    padding: 10px;
+    margin: auto;
+    /* overflow: hidden; */
+}
+
+.parent1 .two1,
+.parent1 .one1 {
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+
+.down1 {
+    background-color: darkorange;
+    height: 190px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.up1 {
+    background-color: darkcyan;
+    height: 190px;
+    width: 100%;
+    margin-bottom: 20px;
+}
