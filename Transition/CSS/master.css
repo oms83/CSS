@@ -1,0 +1,43 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.one {
+    background-color: #262626;
+    color: white;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+
+    /* ! The time taken to move from position 1 to position 2*/
+    /* transition-duration: 0.5s;  */
+
+    /* ! Time before moving and after moving */
+    /* transition-delay: 0.5s;  */
+    
+    /* ! Properties that you want to implement when you move*/
+    /* transition-property: all; */
+    
+    /*
+        ! ease > default => slow -> fast >  slow 
+        ! linear > same speed
+        ! ease-in > slow -> fast
+        ! ease-out > fast -> slow
+        ! ease-in-out > slow -> fast -> slow
+    */
+
+    /* transition-timing-function: linear;  */
+
+    /*  
+        ! property, duration, timing-function, delay
+    */
+    transition: width 3s ease-in 5s, height 2s, margin-left 1s;
+}
+
+.one:hover {
+    margin-left: 40px;
+    width: 500px;
+    height: 300px;
+}
