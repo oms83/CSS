@@ -29,7 +29,7 @@
 .flex div{
     background-color: darkcyan;
     padding: 20px;
-    width: 25%;
+    width: calc(100%/3);
 }
 
 .float {
@@ -41,7 +41,7 @@
 }
 .float div {
     background-color: blueviolet;
-    width: 25%;
+    width: calc(100%/3);
     float: left;
     padding: 20px;
 }
