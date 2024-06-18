@@ -25,12 +25,16 @@
     
     /* justify-content: flex-start; */
     justify-content:center ;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+
+    justify-content: space-around;
+    
+    justify-content: space-evenly;
 }
 .flex div{
     background-color: darkcyan;
     padding: 20px;
-    width: calc(98%/3);
+    width: calc(97%/3);
 }
 
 .float {
