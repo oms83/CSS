@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
+
+body {
+    direction: ltr;
+}
+
+
+.float {
+    overflow: hidden;
+    background-color: #262626;
+    width: 50%;
+    padding: 30px;
+    margin: 20px auto;
+    white-space: nowrap;
+
+}
+
+.float div {
+    float: left;
+    background-color: red;
+    padding: 10px;
+    width: 25%;
+}
+
+.flex {
+    background-color: #262626;
+    display: flex;
+    width: 50%;
+    margin: 20px auto;
+    padding: 30px;
+    
+    /* ! default */
+    /* flex-direction: row; */
+
+    /* ! reverse order of elements */
+    /* flex-direction: row-reverse;  */
+
+    /* ! sort elements as columns */
+    /* flex-direction: column; */
+
+    /* ! reverse order of column elements */
+    /* flex-direction: column-reverse; */
+
+    /* flex-wrap: wrap; */
+    
+    /* flex-wrap: wrap-reverse; */
+
+    /* [flex-flow = flex-direction + flex-wrap] */
+    flex-flow: row-reverse wrap-reverse;
+}
+
+.flex div {
+    background-color: blueviolet;
+    padding: 10px;
+    width: 25%;
+}
+
+h3 {
+    color: #262626;
+}
+
+/*
+    [ direction: rtl;   direction: ltr; ]
+    sayfanin yonu body uzderinde degistirirsek flex olan elemanlar body'dan belirlenen yone gore 
+    haraket eder, float olanlar ise, o elmanlarin yonu onceden nasil belirlenmis ise oyle kalir.
+    yani float olan elemanlarina belirlenen yon ozellikleri, genel olarak belirlenen yone 
+    ozelliklerine baskindir. 
+
+
+    
+*/
