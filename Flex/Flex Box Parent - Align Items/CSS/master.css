@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+    color: white;
+    text-align: center;
+}
+.flex {
+    background-color: #262626;
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0px auto;
+}
+.flex div {
+    width: calc(100%/3);
+    background-color: blueviolet;
+    padding: 20px;
+}
+
+
+.float {
+    background-color: #262626;
+    width: 50%;
+    padding: 30px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+.float div {
+    width: calc(100%/3);
+    float: left;
+    background-color: darkorange;
+    padding: 20px;
+}
+
+h1 {
+    width: 20%;
+    margin: 20px 25%;
+}
+
+.float .four {
+    margin: 0px 35%;
+}
+.flex .one, 
+.float .one {
+    height: 300px;
+}
+
+.flex .three,
+.float .three {
+    height: 150px;
+}
+.box {
+    background-color: #262626;
+    color: darkturquoise;
+    width: 50%;
+    height: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-end;
+    justify-content: flex-end;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
