@@ -5,8 +5,10 @@ div {
     color: white;
     text-align: center;
     float: left;
+
     /* width: calc(88%/5); */
     /* margin-left: 2%; */
+    
     width: calc( (100%-60px) / 5);
     margin-left: 10px;
 }
