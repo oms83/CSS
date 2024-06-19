@@ -1,0 +1,33 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.parent {
+    background-color: #262626;
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    align-items: flex-start;
+    /* justify-content: space-between; */
+
+    align-content: space-between;
+
+}
+
+.parent div {
+    background-color: blueviolet;
+    width: calc(97%/3);
+    padding: 20px;
+    margin-right: 1px;
+}
