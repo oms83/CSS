@@ -17,17 +17,17 @@
     margin: 20px auto;
     display: flex;
     flex-flow: row wrap;
-    text-align: center;
-    align-items: flex-start;
+    text-align: end;
+    /* align-items: flex-start; */
     /* justify-content: space-between; */
 
-    align-content: space-between;
+    align-content: flex-end;
 
 }
 
 .parent div {
     background-color: blueviolet;
-    width: calc(97%/3);
+    width: calc(97%/5);
     padding: 20px;
     margin-right: 1px;
 }

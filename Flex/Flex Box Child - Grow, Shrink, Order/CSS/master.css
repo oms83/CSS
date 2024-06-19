@@ -1,0 +1,97 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.parent {
+    background-color: #262626;
+    width: 100%;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.parent div {
+    background-color: blueviolet;
+    width: 80px;
+    padding: 20px;
+    margin-right: 5px;
+    flex-grow: 1;
+}
+
+.parent .four {
+    flex-grow: 3;
+}
+
+.base {
+    background-color: #262626;
+    width: 100%;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.base div {
+    background-color: blueviolet;
+    width: 80px;
+    padding: 20px;
+    margin-right: 5px;
+    flex-shrink: 1;
+}
+
+.base .three {
+
+    flex-shrink: 3;
+}
+
+
+.derived {
+    background-color: #262626;
+    width: 100%;
+    padding: 20px;
+    height: 300px;
+    margin: 20px auto;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;    
+}
+
+.derived div {
+    background-color: blueviolet;
+    width: 80px;
+    padding: 20px;
+    margin-right: 5px;
+    flex-grow: 1;
+}
+.derived .cls-1 {
+    order: 1;
+}
+.derived .cls-2 {
+    order: 2;
+}
+.derived .cls-3 {
+    order: 3;
+}
+.derived .cls-4 {
+    order: 1;
+}
+.derived .cls-5 {
+    order: 9;
+}
+.derived .cls-6 {
+    order: 2;
+}
+
+
